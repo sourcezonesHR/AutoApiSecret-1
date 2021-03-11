@@ -48,8 +48,8 @@ jobs:
     
     - name: commit #重新上传新token
       run: |
-        git config --global user.email wz.lxh@outlook.com
-        git config --global user.name wangziyingwen
+        git config --global user.email nina.ko@sourcezones.com
+        git config --global user.name Nina
         git add .
         git commit -m "update new token" -a
     - name: Push changes
