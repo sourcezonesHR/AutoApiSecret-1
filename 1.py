@@ -84,5 +84,5 @@ def main():
     except:
         print("pass")
         pass
-for _ in range(random.randint(10,100)):
+for _ in range(random.randint(10,30)):
     main()
